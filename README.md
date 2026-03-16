@@ -39,7 +39,7 @@ The output is a flat sequence of `(type, lexeme)` pairs that the parser works wi
 **Lexeme vs Token:**
 
 | Concept | What it is | Example |
-|---------|-----------|---------|
+|---------|----------- |---------|
 | Lexeme  | The raw extracted substring | `SELECT`, `42`, `>=` |
 | Token   | Categorised object: type + value + metadata | `Token(KEYWORD, 'SELECT', line=1)` |
 
@@ -129,17 +129,6 @@ Whitespace (spaces, tabs, newlines) and line comments (`-- ...`) are **consumed 
 ---
 
 ## Implementation
-
-### Project Structure
-
-```
-lab3/
-├── src/
-│   ├── sql_token.py   # TokenType enum + Token dataclass
-│   ├── lexer.py       # Lexer class — all scanning logic
-│   └── main.py        # Demo script with 6 test cases
-└── README.md
-```
 
 ---
 
