@@ -1,7 +1,7 @@
 # Lab Work No. 3 — Lexer / Scanner
 
 **Course:** Formal Languages & Finite Automata  
-**Author:** Student, Variant 2  
+**Author:** Serghei Barladean
 **Date:** March 2026
 
 ---
