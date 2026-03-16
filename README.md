@@ -53,7 +53,7 @@ The parser sees token *types*, not raw text — it doesn't care about whitespace
 Source code
     │
     ▼
-┌─────────┐   token stream   ┌────────┐   AST   ┌────────────┐
+┌─────────┐   token stream   ┌────────┐   AST    ┌────────────┐
 │  LEXER  │ ──────────────▶  │ PARSER │ ──────▶  │ EVALUATOR  │
 └─────────┘                  └────────┘          └────────────┘
 "What are the words?"    "What is the grammar?"  "What does it mean?"
